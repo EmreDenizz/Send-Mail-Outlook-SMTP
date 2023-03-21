@@ -32,7 +32,7 @@ foreach ($addresses as $address) {
 $email->Subject = $subject;
 $email->Body = $content;
 
-// Send email and check response
+// Send email and print response
 if (!$email->Send()) {
     var_dump("Email is SENT.");
 } else {
