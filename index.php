@@ -1,4 +1,7 @@
 <?php
+/**
+ * @author Emre Deniz <https://github.com/EmreDenizz>
+*/
 
 // Please set an email address or addresses to $to
 $to = "";
